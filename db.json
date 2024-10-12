@@ -1,0 +1,106 @@
+{
+  "carModels": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Supra",
+      "year": 2021,
+      "baseHorsepower": 382,
+      "engineSpecs": "3.0L Inline-6 Turbo"
+    },
+    {
+      "id": "2",
+      "make": "Ford",
+      "model": "Mustang GT",
+      "year": 2021,
+      "baseHorsepower": 460,
+      "engineSpecs": "5.0L V8"
+    },
+    {
+      "id": "3",
+      "make": "Chevrolet",
+      "model": "Camaro SS",
+      "year": 2022,
+      "baseHorsepower": 455,
+      "engineSpecs": "6.2L V8"
+    },
+    {
+      "id": "4",
+      "make": "Nissan",
+      "model": "GT-R",
+      "year": 2021,
+      "baseHorsepower": 565,
+      "engineSpecs": "3.8L Twin-Turbo V6"
+    },
+    {
+      "id": "5",
+      "make": "Porsche",
+      "model": "911 Carrera",
+      "year": 2022,
+      "baseHorsepower": 379,
+      "engineSpecs": "3.0L Twin-Turbo Flat-6"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "High-Flow Air Intake",
+      "category": "Performance",
+      "compatibleModels": ["1", "2", "3", "4", "5"],
+      "performanceGains": {
+        "hp": 10,
+        "torque": 8
+      },
+      "price": 299.99,
+      "vendor": "AutoZone"
+    },
+    {
+      "id": "2",
+      "name": "Performance Exhaust System",
+      "category": "Performance",
+      "compatibleModels": ["1", "2", "3", "4", "5"],
+      "performanceGains": {
+        "hp": 15,
+        "torque": 12
+      },
+      "price": 799.99,
+      "vendor": "Summit Racing"
+    },
+    {
+      "id": "3",
+      "name": "ECU Tuning Kit",
+      "category": "Performance",
+      "compatibleModels": ["1", "2", "3", "4", "5"],
+      "performanceGains": {
+        "hp": 25,
+        "torque": 20
+      },
+      "price": 599.99,
+      "vendor": "APR"
+    },
+    {
+      "id": "4",
+      "name": "Coilover Suspension Kit",
+      "category": "Performance",
+      "compatibleModels": ["1", "2", "3", "4", "5"],
+      "performanceGains": {
+        "hp": 0,
+        "torque": 0
+      },
+      "price": 1299.99,
+      "vendor": "KW Suspensions"
+    },
+    {
+      "id": "5",
+      "name": "High-Performance Brake Kit",
+      "category": "Performance",
+      "compatibleModels": ["1", "2", "3", "4", "5"],
+      "performanceGains": {
+        "hp": 0,
+        "torque": 0
+      },
+      "price": 2499.99,
+      "vendor": "Brembo"
+    }
+  ]
+}
